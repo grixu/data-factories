@@ -5,9 +5,8 @@ namespace Grixu\DataFactories\Tests;
 use Grixu\DataFactories\FactoryCollection;
 use Grixu\DataFactories\Tests\Helpers\TypicalFactory;
 use Illuminate\Support\Collection;
-use Orchestra\Testbench\TestCase;
 
-class FactoryCollectionTest extends TestCase
+class FactoryCollectionTest extends \PHPUnit\Framework\TestCase
 {
     /** @test */
     public function it_constructs()
