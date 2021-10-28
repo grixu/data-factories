@@ -8,6 +8,7 @@ abstract class Factory
 
     public static function new(): self
     {
+        /** @phpstan-ignore-next-line */
         return new static();
     }
 

@@ -33,6 +33,6 @@ class FactoryCollectionTest extends \PHPUnit\Framework\TestCase
 
         $this->assertEquals(Collection::class, get_class($collection));
         $this->assertCount(10, $collection);
-        $collection->each(fn($item) => $this->assertIsArray($item));
+        $collection->each(fn ($item) => $this->assertIsArray($item));
     }
 }
