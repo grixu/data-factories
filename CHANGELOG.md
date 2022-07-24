@@ -2,6 +2,10 @@
 
 All notable changes to `data-factories` will be documented in this file
 
+## 2.0.0 - 2022-07-24
+
+- BREAKING CHANGES: compatibility only with PHP 8.0 & Laravel 9.0
+
 ## 1.2.2 - 2021-11-18
 
 - Fixed auto-merge
